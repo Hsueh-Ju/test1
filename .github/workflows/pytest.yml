@@ -25,4 +25,5 @@ jobs:
 
       # Step 4: Run pytest
       - name: Run tests
-        run: pytest --cov
+        run: |
+          pytest --cov
